@@ -1,3 +1,9 @@
+#hidden files are there, but hidden, to keep the directory useful
+#hidden file names begin with a dot
+#if you delete .git, you lose your commits and all info about a repository
+#so don't do that
+
+
 # pwd is for showing what directory you're in
 pwd
 
