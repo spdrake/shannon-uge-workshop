@@ -1,0 +1,12 @@
+git init #creates a repository
+git status #tells you what's the haps, yo
+git add #adds a file to git's tracking, stages files for commit or adds them to the index
+git log #spits up the log
+git branch #crates a new branch or shows you which one you're on
+git checkout #checks out a branch/switches branches
+git commit #commits yo stuff. takes a snapshot
+git config #set config values
+
+touch #special bonus command to create a blank file, hand of UNIX god
+
+So running through the git/commit cycle is pretty fun and I am pretty sure it owns
