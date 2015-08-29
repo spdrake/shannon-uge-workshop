@@ -8,3 +8,5 @@ git commit #commits yo stuff. takes a snapshot
 git config #set config values
 
 touch #special bonus command to create a blank file, hand of UNIX god
+
+So running through the git/commit cycle is pretty fun and I am pretty sure it owns
