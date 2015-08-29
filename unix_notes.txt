@@ -1,0 +1,211 @@
+# pwd is for showing what directory you're in
+pwd
+
+#man shows the manual, less throws it into a paginator
+man less
+
+#this pipes history's output to less
+history | less
+
+#History summons the history of what you've been typing
+history
+
+#Changing directories, using the .. to jump up and down levels.
+cd ..
+..
+cd /
+
+#Opening the current directory in Sublime
+subl .
+
+#Getting a list of what's in that directory
+ls /
+cd
+
+#Going hoooooome
+~
+
+#Bouncing around directories again
+cd ../downloads
+cd Documents/
+ls
+cd ../Downloads
+cd src
+cd ~
+l
+cd home
+cd ../..
+cd ../Shared
+cd Stories/
+cd spdrake
+cd spdrake/
+ls -l
+cd staff
+owd
+cd Twine/
+
+#Testing out various ls flags
+ls -R
+ls -k
+ls -p
+ls -u
+ls -w
+ls -v
+ls -G
+ls -i
+ls -g
+ls -o
+la -@
+ls -Q
+ls -q
+ls -A
+ls -a
+ls -U
+
+#Man is giving me the manual for the ls command
+man ls
+
+#Trying more ls commands
+ls -alt
+ls -rlt
+rs -lt
+rs -rlt
+ls -rt
+ls -r
+ls -lt
+ls -t
+
+#Changing directories again
+cd ~/Downloads/
+cd /Downloads/
+
+#Getting all that junk off mah screen
+clear
+
+#Configuring git and setting up Fish and brew and all that goodness
+git config --global user.name
+git config --global user.email
+git config --global user.ermail
+git config
+curl -fsSL http://git.io/QxUaOQ | sh
+git
+curl -fsSL http://git.io/7UHtNA | sh
+git --version
+echo $PATH
+echo $path
+echo $EDITOR
+subl ~/.config/fish/config.fish
+brew info fish
+fish_update_completions
+brew install fish
+git config --global user.email 'spdrake@gmail.com'
+git config --global user.name 'Shannon P. Drake'
+brew install git
+subl /etc/paths
+echo $ed
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+chsh -s /usr/local/bin/fish
+curl -fsSL http://git.io/beJs | ruby
+N0rw4y101
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew doctor
+brew update
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+uname
+ping 169.254.233.82
+dscacheutil -flushcache
+traceroute www.google.com
+tracert
+ls -lrt
+ls -rt
+ls -t
+ls moving_around.txt
+ls moving_around
+ls
+history > moving_around.txt
+pwd
+man less
+history | less
+history
+cd ..
+..
+cd /
+subl .
+ls /
+cd
+~
+cd ../downloads
+cd Documents/
+cd ../Downloads
+cd src
+cd ~
+l
+cd home
+cd ../..
+cd ../Shared
+cd Stories/
+cd spdrake
+cd spdrake/
+ls -l
+cd staff
+owd
+cd Twine/
+ls -R
+ls -k
+ls -p
+ls -u
+ls -w
+ls -v
+ls -G
+ls -i
+ls -g
+ls -o
+la -@
+ls -Q
+ls -q
+ls -A
+ls -a
+ls -U
+man ls
+ls -alt
+ls -rlt
+rs -lt
+rs -rlt
+ls -r
+ls -lt
+cd ~/Downloads/
+cd /Downloads/
+clear
+git config --global user.name
+git config --global user.email
+git config --global user.ermail
+git config
+curl -fsSL http://git.io/QxUaOQ | sh
+git
+curl -fsSL http://git.io/7UHtNA | sh
+git --version
+echo $PATH
+echo $path
+echo $EDITOR
+subl ~/.config/fish/config.fish
+brew info fish
+fish_update_completions
+brew install fish
+git config --global user.email 'spdrake@gmail.com'
+git config --global user.name 'Shannon P. Drake'
+brew install git
+subl /etc/paths
+echo $ed
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+chsh -s /usr/local/bin/fish
+curl -fsSL http://git.io/beJs | ruby
+N0rw4y101
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew doctor
+brew update
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+uname
+ping 169.254.233.82
+dscacheutil -flushcache
+traceroute www.google.com
+tracert
